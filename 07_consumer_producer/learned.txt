@@ -1,0 +1,3 @@
+- One can only call wait on an object if one owns the monitor. I.e. if one has called synchronized(object) before.
+- wait has to be in a while loop, to prevent thread from waking up in wrong situation
+- call of notify is made after the execution of statements. statement that may/must cause aanother thread to leave it's waiting loop..
