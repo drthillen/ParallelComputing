@@ -25,7 +25,6 @@ public class AtomicVsInteger {
         System.out.println("a: " + instance.a);
         System.out.println("b: " + instance.b);
         System.out.println("+++++++++++++++++++++++++++++++++++++++++++++");
-
     }
 
     void increment() {
